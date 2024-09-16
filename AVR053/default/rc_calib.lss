@@ -1,0 +1,29 @@
+
+AVRASM ver. 2.2.8  D:\Engineering\GitHub\avr-calibrate\AVR053\RC_Calibration.asm Mon Sep 16 10:24:17 2024
+
+[builtin](2): error: Cannot find include file: tn841def.inc
+D:\Engineering\GitHub\avr-calibrate\AVR053\RC_Calibration.asm(0): '[builtin]' included form here
+D:\Engineering\GitHub\avr-calibrate\AVR053\RC_Calibration.asm(29): error: Cannot find include file: Device specific\t2313.asm
+D:\Engineering\GitHub\avr-calibrate\AVR053\RC_Calibration.asm(100): Including file 'D:\Engineering\GitHub\avr-calibrate\AVR053\Interface specific\isp_AVRDRAGON_interface.inc'
+D:\Engineering\GitHub\avr-calibrate\AVR053\Interface specific\isp_AVRDRAGON_interface.inc(28): warning: Use of undefined or forward referenced symbol 'ISP_CAL_MISO' in .equ/.set
+D:\Engineering\GitHub\avr-calibrate\AVR053\RC_Calibration.asm(100): 'D:\Engineering\GitHub\avr-calibrate\AVR053\Interface specific\isp_AVRDRAGON_interface.inc' included form here
+D:\Engineering\GitHub\avr-calibrate\AVR053\Interface specific\isp_AVRDRAGON_interface.inc(29): warning: Use of undefined or forward referenced symbol 'ISP_CAL_MOSI' in .equ/.set
+D:\Engineering\GitHub\avr-calibrate\AVR053\RC_Calibration.asm(100): 'D:\Engineering\GitHub\avr-calibrate\AVR053\Interface specific\isp_AVRDRAGON_interface.inc' included form here
+D:\Engineering\GitHub\avr-calibrate\AVR053\Interface specific\isp_AVRDRAGON_interface.inc(31): warning: Use of undefined or forward referenced symbol 'ISP_CAL_PORT_REG' in .equ/.set
+D:\Engineering\GitHub\avr-calibrate\AVR053\RC_Calibration.asm(100): 'D:\Engineering\GitHub\avr-calibrate\AVR053\Interface specific\isp_AVRDRAGON_interface.inc' included form here
+D:\Engineering\GitHub\avr-calibrate\AVR053\Interface specific\isp_AVRDRAGON_interface.inc(32): warning: Use of undefined or forward referenced symbol 'ISP_CAL_DDR_REG' in .equ/.set
+D:\Engineering\GitHub\avr-calibrate\AVR053\RC_Calibration.asm(100): 'D:\Engineering\GitHub\avr-calibrate\AVR053\Interface specific\isp_AVRDRAGON_interface.inc' included form here
+D:\Engineering\GitHub\avr-calibrate\AVR053\Interface specific\isp_AVRDRAGON_interface.inc(33): warning: Use of undefined or forward referenced symbol 'ISP_CAL_PIN_REG' in .equ/.set
+D:\Engineering\GitHub\avr-calibrate\AVR053\RC_Calibration.asm(100): 'D:\Engineering\GitHub\avr-calibrate\AVR053\Interface specific\isp_AVRDRAGON_interface.inc' included form here
+D:\Engineering\GitHub\avr-calibrate\AVR053\RC_Calibration.asm(121): error: Cannot find include file: common\macros.inc
+D:\Engineering\GitHub\avr-calibrate\AVR053\RC_Calibration.asm(122): Including file 'D:\Engineering\GitHub\avr-calibrate\AVR053\common\main.asm'
+D:\Engineering\GitHub\avr-calibrate\AVR053\common\main.asm(88): error: Use of undefined or forward referenced symbol 'ADDR_START' in .org
+D:\Engineering\GitHub\avr-calibrate\AVR053\RC_Calibration.asm(122): 'D:\Engineering\GitHub\avr-calibrate\AVR053\common\main.asm' included form here
+D:\Engineering\GitHub\avr-calibrate\AVR053\common\main.asm(95): error: Use of undefined or forward referenced symbol 'ADDR_MAIN' in .org
+D:\Engineering\GitHub\avr-calibrate\AVR053\RC_Calibration.asm(122): 'D:\Engineering\GitHub\avr-calibrate\AVR053\common\main.asm' included form here
+D:\Engineering\GitHub\avr-calibrate\AVR053\common\main.asm(125): error: SETB: Unknown instruction or macro
+D:\Engineering\GitHub\avr-calibrate\AVR053\RC_Calibration.asm(122): 'D:\Engineering\GitHub\avr-calibrate\AVR053\common\main.asm' included form here
+D:\Engineering\GitHub\avr-calibrate\AVR053\common\main.asm(125): error: ISP_PORT_REG: Unknown instruction or macro
+D:\Engineering\GitHub\avr-calibrate\AVR053\RC_Calibration.asm(122): 'D:\Engineering\GitHub\avr-calibrate\AVR053\common\main.asm' included form here
+D:\Engineering\GitHub\avr-calibrate\AVR053\common\main.asm(125): error: syntax error, unexpected ','
+D:\Engineering\GitHub\avr-calibrate\AVR053\RC_Calibration.asm(122): 'D:\Engineering\GitHub\avr-calibrate\AVR053\common\main.asm' included form here
